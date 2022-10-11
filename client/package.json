@@ -35,5 +35,11 @@
       "last 1 safari version"
     ]
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agusienka/myfullstackproject"
+   },
+   
   "proxy": "http://localhost:3001"
 }
