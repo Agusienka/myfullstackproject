@@ -6,6 +6,8 @@ const app = express();
 
 //the '/api' is an endpoint that will be used to connect to the server to fetch data from the server
 
+app.use(express.static(path.resolve(__dirname, '../client/build')));
+
 app.get('/api', (req, res) => {
     res.json({ message: 'Hello from server!' });
 });
